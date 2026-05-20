@@ -1,12 +1,16 @@
 # Open Library Explorer
 
-## ✨ Features
+## Demo
 
-- 🔍 **Debounced Search**: 300ms debounce reduces API calls by 90%+ while maintaining responsive UX
-- 💾 **Persistent State**: Search history and saved books persist across sessions via localStorage
-- ♿ **Accessible UI**: WCAG-compliant ARIA labels, keyboard navigation, and semantic HTML
-- 🧪 **Tested**: 10/10 Playwright E2E tests covering search, pagination, error handling, and state persistence
-- 🎨 **Polished Design**: Responsive Tailwind CSS v4 UI with loading states, error handling, and smooth interactions
+[https://book-dashboard-steel.vercel.app](https://book-dashboard-steel.vercel.app)
+
+## Features
+
+- **Debounced Search**: 300ms debounce reduces API calls by 90%+ while maintaining responsive UX
+- **Persistent State**: Search history and saved books persist across sessions via localStorage
+- **Accessible UI**: WCAG-compliant ARIA labels, keyboard navigation, and semantic HTML
+- **Tested**: 10/10 Playwright E2E tests covering search, pagination, error handling, and state persistence
+- **Polished Design**: Responsive Tailwind CSS v4 UI with loading states, error handling, and smooth interactions
 
 ## 🛠️ Tech Stack
 
@@ -18,7 +22,7 @@
 | State | Zustand + localStorage |
 | Testing | Playwright (E2E) |
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Install dependencies
