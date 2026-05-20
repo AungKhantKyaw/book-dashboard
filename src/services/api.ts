@@ -3,8 +3,8 @@ import type { Book, SearchFilters } from '../types/book';
 const BASE_URL = 'https://openlibrary.org';
 
 // Helper: Build cover image URL
-export const getCoverUrl = (coverId?: number, size: 'S' | 'M' | 'L' = 'M') =>
-  coverId ? `https://covers.openlibrary.org/b/id/${coverId}-${size}.jpg` : null;
+export const getCoverUrl = (coverId?: number, size: 'S' | 'M' | 'L' = 'M'): string | undefined =>
+  coverId ? `https://covers.openlibrary.org/b/id/${coverId}-${size}.jpg` : undefined;
 
 // Helper: Parse Open Library search result → our Book type
 function parseDocToBook(doc: any): Book {
